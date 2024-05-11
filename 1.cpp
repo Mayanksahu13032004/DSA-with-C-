@@ -2,6 +2,12 @@
 using namespace std;
 int main(){
     
+int x;
+  cout << "Type a number: "; // Type a number and press enter
+  cin >> x; // Get user input from the keyboard
+  cout << "Your number is: " << x<<endl;
+  
+    cout<<"my name is lakaja \n";
     int a=123;
     cout<<"Hello world\n";
     cout<<a<<endl;
@@ -13,10 +19,6 @@ int main(){
    int size=sizeof(a);
     cout <<"size of a is" <<size<<endl;
 
-     int x;
-  cout << "Type a number: "; // Type a number and press enter
-  cin >> x; // Get user input from the keyboard
-  cout << "Your number is: " << x<<endl;
-  
+     
 
 }
